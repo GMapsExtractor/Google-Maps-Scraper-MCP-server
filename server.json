@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gmapsextractor/google-maps-scraper",
+  "description": "Live Google Maps business search, review, and photo data for AI agents over MCP.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gmapsextractor.com/google-maps-scraper-mcp",
+  "repository": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/google-maps-scraper-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/google-maps-scraper-mcp/main/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/google-maps-scraper-mcp/main/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cloud.gmapsextractor.com/api/mcp"
+    }
+  ]
+}

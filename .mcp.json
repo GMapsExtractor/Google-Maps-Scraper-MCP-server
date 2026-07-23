@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "google-maps-scraper-mcp": {
+      "type": "http",
+      "url": "https://cloud.gmapsextractor.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
