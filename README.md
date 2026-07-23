@@ -167,8 +167,6 @@ This is a public discovery, configuration, and documentation repository. It cont
 
 The hosted MCP implementation remains at `https://cloud.gmapsextractor.com/api/mcp`.
 
-Before publishing this repository, replace `YOUR_GITHUB_USERNAME` in `server.json` with the actual GitHub owner.
-
 ## License
 
 [MIT](LICENSE)
