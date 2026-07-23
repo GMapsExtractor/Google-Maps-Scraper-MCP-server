@@ -5,19 +5,19 @@
   "version": "1.0.0",
   "websiteUrl": "https://gmapsextractor.com/google-maps-scraper-mcp",
   "repository": {
-    "url": "https://github.com/GMapsExtractor/google-maps-scraper-mcp",
+    "url": "https://github.com/GMapsExtractor/Google-Maps-Scraper-MCP-server/tree/main",
     "source": "github"
   },
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/GMapsExtractor/google-maps-scraper-mcp/main/icon-192.png",
+      "src": "https://raw.githubusercontent.com/GMapsExtractor/Google-Maps-Scraper-MCP-server/main/icon-192.png",
       "mimeType": "image/png",
       "sizes": [
         "192x192"
       ]
     },
     {
-      "src": "https://raw.githubusercontent.com/GMapsExtractor/google-maps-scraper-mcp/main/icon-512.png",
+      "src": "https://raw.githubusercontent.com/GMapsExtractor/Google-Maps-Scraper-MCP-server/main/icon-512.png",
       "mimeType": "image/png",
       "sizes": [
         "512x512"
