@@ -12,7 +12,7 @@ This repository is the public listing and manifest for the hosted G Maps Extract
 
 - Website: [gmapsextractor.com](https://gmapsextractor.com)
 - Product page: [Google Maps Scraper MCP](https://gmapsextractor.com/google-maps-scraper-mcp)
-- Get an API key: [cloud.gmapsextractor.com](https://cloud.gmapsextractor.com)
+- Get an API key: [cloud.gmapsextractor.com](https://gmapsextractor.com/google-maps-scraper-mcp)
 - MCP endpoint: `https://cloud.gmapsextractor.com/api/mcp`
 - Transport: Streamable HTTP
 - Authentication: `Authorization: Bearer YOUR_API_KEY`
