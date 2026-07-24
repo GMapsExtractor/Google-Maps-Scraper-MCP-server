@@ -1,11 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.gmapsextractor/google-maps-scraper",
+  "title": "Google Maps Scraper",
   "description": "Live Google Maps business search, review, and photo data for AI agents over MCP.",
   "version": "1.0.0",
   "websiteUrl": "https://gmapsextractor.com/google-maps-scraper-mcp",
   "repository": {
-    "url": "https://github.com/GMapsExtractor/Google-Maps-Scraper-MCP-server/tree/main",
+    "url": "https://github.com/GMapsExtractor/Google-Maps-Scraper-MCP-server",
     "source": "github"
   },
   "icons": [
@@ -27,7 +28,15 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://cloud.gmapsextractor.com/api/mcp"
+      "url": "https://cloud.gmapsextractor.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "G Maps Extractor API key in the format: Bearer YOUR_API_KEY",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
